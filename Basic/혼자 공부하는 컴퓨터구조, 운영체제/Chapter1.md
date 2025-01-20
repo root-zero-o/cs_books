@@ -18,7 +18,7 @@
 
 - 중앙처리장치(CPU), 주기억장치(메모리), 보조기억장치, 입출력장치
 
-<img src="../../images/os/os-1-1.png">
+<img src="../../images/Basic/os-1-1.png">
 
 #### 메모리
 

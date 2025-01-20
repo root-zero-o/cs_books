@@ -145,7 +145,7 @@ EUC-KR은 완성형 인코딩 방식으로, 하나의 단어에 2바이트 크�
 
 인코딩 결과는 유니코드 문자에 부여된 값의 범위에 따라 결정된다.
 
-<img src="../../images/os/os-1-2.PNG">
+<img src="../../images/Basic/os-1-2.PNG">
 
 예) 한 = 0xD55C, 글 = 0xAE00
 

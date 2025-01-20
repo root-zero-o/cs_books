@@ -17,7 +17,7 @@
 
 - 8코어 = '명령어를 실행하는 부품'을 8개 포함한다.
 
-<img src="../../images/os/os-1-5-3.PNG">
+<img src="../../images/Basic/os-1-5-3.PNG">
 
 <br/>
 
@@ -43,20 +43,20 @@
 
 - 하이퍼스레딩 : 인텔의 멀티스레드 기술
 
-<img src="../../images/os/os-1-5-4.PNG">
+<img src="../../images/Basic/os-1-5-4.PNG">
 
 #### 소프트웨어적 스레드
 
 하나의 프로그램에서 독립적으로 실행되는 단위 <br/>
 하나의 프로그램이 실행되는 과정에서 프로그램의 여러 부분이 동시에 실행될 수도 있다.
 
-<img src="../../images/os/os-1-5-5.PNG">
+<img src="../../images/Basic/os-1-5-5.PNG">
 
 #### 멀티스레드 프로세서
 
 하나의 코어로 여러 명령어를 동시에 처리하려면 하나의 명령어를 처리하기 위해 꼭 필요한 `레지스터`를 여러 개 가지고 있으면 된다.
 
-<img src="../../images/os/os-1-5-6.PNG">
+<img src="../../images/Basic/os-1-5-6.PNG">
 
 <br/>
 
