@@ -106,3 +106,33 @@
 
 (A∪B)′ = A′∩B′ 를 쌍대로 바꾸면 (A∩B)′ = A′∪B′
 
+<br/>
+
+## 3.3 집합류와 멱집합
+
+- 어떤 집합 A에 대하여 집합 A의 cardinality는 2^|A|가 되는데, 이러한 부분 집합의 모임을 집합류(class)라고 한다.
+- 임의의 집합 S에 대하여, S의 모든 부분 집합을 원소로 가지는 집합을 집합 S의 멱집합(power set)이라 한다. P(S) 혹은 2^S로 표기한다.
+
+아래 첨자(index)를 붙여서 표기할 때, 합집합과 교집합의 연산은 아래와 같이 표기한다.
+
+<img src='https://github.com/user-attachments/assets/0f99d78c-2b29-4964-ac2b-68486b223a06' width="200px"/>
+
+<br/>
+
+## 3.4 집합의 분할
+
+S를 공집합이 아닌 임의의 집합이라고 할 때, 집합 S의 분할(partition) π는 아래 조건을 만족시켜야 한다.
+
+π = {A1, A2, A3, … Ai, … Ak}
+
+1. i=1, ..., k에 대해 Ai는 공집합이 아닌 집합 S의 부분 집합이다.
+2. S = A1∪A2∪...∪Ak
+3. Ai들 사이에서는 서로소이다. 즉 i ≠ j이면, Ai ∩ Aj = ∅이다.
+
+분할의 원소인 Ai를 분할의 블록(block)이라고 한다.
+
+<img src='https://github.com/user-attachments/assets/70892d00-73e3-4359-85bb-1037f805f105' width='200px'/>
+
+
+
+
