@@ -51,3 +51,58 @@
 #### 가산적 집합(countable set)
 
 정수의 집합과 일대일의 대응 관계에 있는 집합들을 `가산적 집합(countable set)` 또는 `가산적으로 무한한 집합(countably infinite set)`이라고 한다.
+
+<br/>
+
+## 3.2 집합의 연산
+
+### 집합의 연산
+
+- 합집합(Union) : 집합 A 또는 집합 B에 속하는 모든 원소의 집합. `A∪B`로 표기한다.
+- 교집합(Intersection) : 집합 A에도 속하고 집합 B에도 속하는 모든 원소의 집합. `A∩B`로 표기한다.
+  - 집합 A와 집합 B가 공통된 원소를 하나도 가지지 않은 경우(`A∩B = ∅`) = A, B를 서로소(disjoint)라고 한다.
+- 차집합(Difference) : 집합 A에 속하고 집합 B에는 속하지 않는 모든 원소들의 집합. `A-B`로 표기한다.
+- 대칭 차집합(Symmetric difference) : `A∪B`의 원소 중에서 `A∩B`에 속하지 않는 모든 원소들의 집합. `A⊕B`로 표기한다.
+- 곱집합(Cartesian product)
+  - 순서쌍(ordered pair) : 순서로 구분되는 원소들의 쌍. `(a,b)`로 나타낸다. 순서로 구분되므로 `(a,b) != (b,a)`이고, `(a,b) = (c,d)`이면 `a=c`이고 `b=d`이다.
+  - 곱집합 or 카티시안 곱(Cartesian product)는 `x∈A`이고 `y∈B`인 모든 순서쌍 `(x,y)`의 집합. `A×B`로 표기한다.
+
+### 집합 연산의 cardinality
+
+집합 A, B, C가 유한 집합일 때 아래 식들이 성립한다.
+
+  1. |A∪B| = |A| + |B| - |A∩B|
+  2. |A∩B| = |A| + |B| - |A∪B|
+  3. |A∪B∪C| = |A| + |B| + |C| - |A∩B| - |A∩C| - |B∩C| + |A∩B∩C|
+  4. |A-B| = |A∩B′| = |A| - |A-B|
+  5. |AxB| = |A| * |B|
+
+### 집합의 대수법칙
+
+- 멱등 법칙(idempotent law)
+  - A∪A = A, A∩A = A
+- 항등 법칙(identity law)
+  - A∪∅ = A, A∩∅ = ∅, A∪U = U, A∩U = A
+- 교환 법칙(commutative law)
+  - A∪B = B∪A, A∩B = B∩A
+- 결합 법칙(associative law)
+  - (A∪B)∪C = A∪(B∪C), (A∩B)∩C = A∩(B∩C), (A⊕B)⊕C = A⊕(B⊕C)
+- 분배 법칙(distributive law)
+  - A∪(B∩C) = (A∪B)∩(A∪C), A∩(B∪C) = (A∩B)∪(A∩C)
+- 흡수 법칙(absorption law)
+  - (A∩B)∪A = A, (A∪B)∩A = A
+- 보 법칙(complement law)
+  - A′′ = A
+- 역 법칙(inverse law)
+  - A∪A′ = U, A∩A′ = ∅, U′ = ∅, ∅′ = U
+- 드 모르간의 법칙(De Morgan's law)
+  - (A∪B)′ = A′∩B′, (A∩B)′ = A′∪B′
+- 기타 법칙
+  - A-B = A∩B′, A-A = ∅, A-∅ = A
+
+### 쌍대(duality)
+
+집합에 관한 명제에서 그 명제 안에 있는 교집합과 합집합을 전체 집합에 대한 여집합으로 바꾸어서 만든 새로운 명제를 원래 명제의 쌍대(duality)라고 한다.
+
+(A∪B)′ = A′∩B′ 를 쌍대로 바꾸면 (A∩B)′ = A′∪B′
+
